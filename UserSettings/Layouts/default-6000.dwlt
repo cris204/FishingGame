@@ -1,0 +1,4269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: Inspector
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 36
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: MainToolbarWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 36
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 1920
+    height: 941
+  m_MinSize: {x: 400, y: 112}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 0
+  controlID: 49
+  draggingID: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1402
+    height: 941
+  m_MinSize: {x: 300, y: 112}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 50
+  draggingID: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1402
+    height: 661
+  m_MinSize: {x: 300, y: 56}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 51
+  draggingID: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 501
+    height: 661
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 501
+    y: 0
+    width: 616
+    height: 661
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1117
+    y: 0
+    width: 285
+    height: 661
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 661
+    width: 1402
+    height: 280
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1402
+    y: 0
+    width: 518
+    height: 941
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  - {fileID: 23}
+  - {fileID: 24}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13987, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.MainToolbarWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: UnityEditor.MainToolbarWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 36
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Account
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Store
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Unsupported User Elements
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Package Management/Package Manager
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Collab
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/AI
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Unity Version Control
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Toolbar Help
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Layout
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Editor Utility/Quality
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Search
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Modes
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Undo
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Multiplayer/Multiplayer Role
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Cloud
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 2
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Play Mode Controls
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1118
+    y: 24
+    width: 283
+    height: 635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 0800000000000000000000000d000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 283
+      height: 614
+    m_Scale: {x: 0.14739583, y: 0.14739583}
+    m_Translation: {x: 141.5, y: 307}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -960
+      y: -2082.827
+      width: 1920
+      height: 4165.654
+    m_MinimalGUI: 1
+  m_defaultScale: 0.14739583
+  m_LastWindowPixelSize: {x: 283, y: 635}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000001000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+  m_showToolbar: 1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 24
+    width: 500
+    height: 635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: []
+      m_LastClickedID:
+        m_Data: 0
+      m_ExpandedIDs:
+      - m_Data: -1356
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData:
+          m_Data: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 87715094ae0c77442a308e4a891e1749
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 502
+    y: 24
+    width: 614
+    height: 635
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Tool Settings
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-149.0,"y":-26.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -149, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-grid-and-snap-toolbar
+      index: 2
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-141.0,"y":149.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-toolbar
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-search-toolbar
+      index: 2
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-transform-toolbar
+      index: 0
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-component-tools
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      displayed: 1
+      id: Orientation
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-48.0,"y":86.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -48, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Light Settings
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Camera
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Constraints
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Collisions
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Agent Display
+      index: 5
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Occlusion Culling
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Physics Debugger
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Scene Visibility
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Particles
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap
+      index: 11
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Focus
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-135.0,"y":-43.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -135, y: -43}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Path
+      index: 15
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/TrailRenderer
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 9
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 31, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: AINavigationOverlay
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":10.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 10, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-camera-mode-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Terrain Tools
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Masks
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 0
+      id: Scene View/Lighting Visualization Colors
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 1
+      id: Overlays/OverlayMenu
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Clipboard
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Brush Pick
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: APV Overlay
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Sprite Swap
+      index: 16
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: SceneView/CamerasOverlay
+      index: 13
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/PBR Validation Settings
+      index: 14
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-tool-contexts-toolbar
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--left
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--right
+      scrollOffset: 0
+    m_DynamicPanelContainerData:
+    - containerId: overlay-dynamic-panel--left
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    - containerId: overlay-dynamic-panel--right
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_WindowGUID: 19d275aa498fc1b4ca76d7e36c63fa0e
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_DebugDrawModesUseInteractiveLightBakingData: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 0
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_Viewpoint:
+    m_SceneView: {fileID: 16}
+    m_CameraOverscanSettings:
+      m_Opacity: 50
+      m_Scale: 1
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_LastDebugDrawMode:
+    drawMode: 35
+    name: Contributors / Receivers
+    section: Lighting
+  m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 685
+    width: 1401
+    height: 254
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: []
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Projects\MyProjects\FishingGame\My project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastLocalAssetsSearchArea: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs:
+    - m_Data: 49838
+    m_LastClickedID:
+      m_Data: 49838
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 49976
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: []
+    m_LastClickedID:
+      m_Data: 0
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 49976
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs:
+    - m_Data: 43412
+    - m_Data: 43344
+    - m_Data: 43352
+    - m_Data: 45186
+    - m_Data: 43252
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 259
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 473
+    width: 1401
+    height: 521
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Audio Mixer
+    m_Image: {fileID: 2344599766593239149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Audio Mixer\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 685
+    width: 1380
+    height: 309
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: []
+    m_LastClickedID:
+      m_Data: 0
+    m_ExpandedIDs:
+    - m_Data: 1010101010
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 87
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 414
+      - 966
+      relativeSizes:
+      - 0.3
+      - 0.7
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 1380
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animation\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 475
+    width: 1380
+    height: 519
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 0
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Animator\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 475
+    width: 1380
+    height: 519
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1403
+    y: 24
+    width: 517
+    height: 915
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 588
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.TestRunner.dll::UnityEditor.TestTools.TestRunner.TestRunnerWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: Test framework for running Edit mode and Play mode tests in Unity.
+      Part of the com.unity.test-framework package.
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1402
+    y: 79
+    width: 517
+    height: 915
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_Spl:
+    ID: 140
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 634
+    - 211
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 845
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_TestListGUIs:
+  - m_Window: {fileID: 23}
+    runProgress:
+      RunGuid: 0a5f8687-3fa5-413f-93d8-670466734646
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames:
+          - CardBattler.Tests.Battle.BattleSimulatorTests.TargetingPriorityTest
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999999
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Card_Battler][suite]'
+      name: Card_Battler
+      fullName: Card_Battler
+      resultStatus: 1
+      duration: 0.1609023
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1092
+      uniqueId: '[CardBattler.Editor.Tests.dll][suite]'
+      name: CardBattler.Editor.Tests.dll
+      fullName: C:/Projects/Card/Library/ScriptAssemblies/CardBattler.Editor.Tests.dll
+      resultStatus: 1
+      duration: 0.1609023
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Card_Battler][suite]'
+    - id: 1093
+      uniqueId: 'CardBattler.Editor.Tests.dll/[CardBattler][suite]'
+      name: CardBattler
+      fullName: CardBattler
+      resultStatus: 1
+      duration: 0.1609023
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1092
+      parentUniqueId: '[CardBattler.Editor.Tests.dll][suite]'
+    - id: 1094
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+      name: Tests
+      fullName: CardBattler.Tests
+      resultStatus: 1
+      duration: 0.1609023
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1093
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/[CardBattler][suite]'
+    - id: 1103
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities][suite]'
+      name: Abilities
+      fullName: CardBattler.Tests.Abilities
+      resultStatus: 1
+      duration: 0.0346846
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+    - id: 1085
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests][suite]'
+      name: AbilitiesRuleExecutionerTests
+      fullName: CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests
+      resultStatus: 1
+      duration: 0.029671099
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities][suite]'
+    - id: 1062
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/AbilitiesRuleExecutionerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests.ExecutesFirstAbilityWhenRulesMetTest]'
+      name: ExecutesFirstAbilityWhenRulesMetTest
+      fullName: CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests.ExecutesFirstAbilityWhenRulesMetTest
+      resultStatus: 1
+      duration: 0.0251648
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests][suite]'
+    - id: 1063
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/AbilitiesRuleExecutionerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests.ExecutesHealWhenUnitIsDamagedTest]'
+      name: ExecutesHealWhenUnitIsDamagedTest
+      fullName: CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests.ExecutesHealWhenUnitIsDamagedTest
+      resultStatus: 1
+      duration: 0.0045063
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesRuleExecutionerTests][suite]'
+    - id: 1088
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesTest][suite]'
+      name: AbilitiesTest
+      fullName: CardBattler.Tests.Abilities.AbilitiesTest
+      resultStatus: 1
+      duration: 0.0031725
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities][suite]'
+    - id: 1067
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/AbilitiesTest/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesTest.BasicAttackCalculatesDamageCorrectlyTest]'
+      name: BasicAttackCalculatesDamageCorrectlyTest
+      fullName: CardBattler.Tests.Abilities.AbilitiesTest.BasicAttackCalculatesDamageCorrectlyTest
+      resultStatus: 1
+      duration: 0.0031725
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.AbilitiesTest][suite]'
+    - id: 1090
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.BasicAttackProcessorTest][suite]'
+      name: BasicAttackProcessorTest
+      fullName: CardBattler.Tests.Abilities.BasicAttackProcessorTest
+      resultStatus: 1
+      duration: 0.001841
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1103
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities][suite]'
+    - id: 1084
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/BasicAttackProcessorTest/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.BasicAttackProcessorTest.CalculatesDamageCorrectlyTest]'
+      name: CalculatesDamageCorrectlyTest
+      fullName: CardBattler.Tests.Abilities.BasicAttackProcessorTest.CalculatesDamageCorrectlyTest
+      resultStatus: 1
+      duration: 0.001841
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+        Unit 
+        created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Abilities/[CardBattler.Editor.Tests][CardBattler.Tests.Abilities.BasicAttackProcessorTest][suite]'
+    - id: 1098
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+      name: Battle
+      fullName: CardBattler.Tests.Battle
+      resultStatus: 1
+      duration: 0.1075529
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+    - id: 1029
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+      name: BattleSimulatorTests
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests
+      resultStatus: 1
+      duration: 0.045928
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1021
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/BattleSimulatorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests.DamageApplicationTest]'
+      name: DamageApplicationTest
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests.DamageApplicationTest
+      resultStatus: 1
+      duration: 0.0177077
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+    - id: 1023
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/BattleSimulatorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests.DeadUnitsDoNotAttackTest]'
+      name: DeadUnitsDoNotAttackTest
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests.DeadUnitsDoNotAttackTest
+      resultStatus: 1
+      duration: 0.0019431
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+    - id: 1024
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/BattleSimulatorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests.IgnoreDeadInputUnitsTest]'
+      name: IgnoreDeadInputUnitsTest
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests.IgnoreDeadInputUnitsTest
+      resultStatus: 1
+      duration: 0.0018384
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+    - id: 1022
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/BattleSimulatorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests.TargetingPriorityTest]'
+      name: TargetingPriorityTest
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests.TargetingPriorityTest
+      resultStatus: 1
+      duration: 0.0220825
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+    - id: 1020
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/BattleSimulatorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests.TurnOrderBasedOnSpeedTest]'
+      name: TurnOrderBasedOnSpeedTest
+      fullName: CardBattler.Tests.Battle.BattleSimulatorTests.TurnOrderBasedOnSpeedTest
+      resultStatus: 1
+      duration: 0.0023563
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.BattleSimulatorTests][suite]'
+    - id: 1102
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards][suite]'
+      name: Boards
+      fullName: CardBattler.Tests.Battle.Boards
+      resultStatus: 1
+      duration: 0.012096399
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1079
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+      name: BattleBoardTests
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests
+      resultStatus: 1
+      duration: 0.012096399
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1102
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards][suite]'
+    - id: 1081
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/BattleBoardTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests.MoveUnitRejectsBlockedOrOccupiedDestinationTest]'
+      name: MoveUnitRejectsBlockedOrOccupiedDestinationTest
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests.MoveUnitRejectsBlockedOrOccupiedDestinationTest
+      resultStatus: 1
+      duration: 0.0034031
+      messages: 
+      output: 'Unit ally-1 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        ally-2 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+    - id: 1080
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/BattleBoardTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests.PlaceUnitRequiresValidFreeAndUnblockedSlotTest]'
+      name: PlaceUnitRequiresValidFreeAndUnblockedSlotTest
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests.PlaceUnitRequiresValidFreeAndUnblockedSlotTest
+      resultStatus: 1
+      duration: 0.0014951
+      messages: 
+      output: 'Unit ally-1 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        ally-2 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+    - id: 1084
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/BattleBoardTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests.QueriesReturnExpectedRowsColumnsAndOrderedUnitsTest]'
+      name: QueriesReturnExpectedRowsColumnsAndOrderedUnitsTest
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests.QueriesReturnExpectedRowsColumnsAndOrderedUnitsTest
+      resultStatus: 1
+      duration: 0.002956
+      messages: 
+      output: 'Unit enemy-a created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        enemy-b created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        enemy-c created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+    - id: 1083
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/BattleBoardTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests.TryPushUnitBackwardFailsWhenDestinationIsInvalidBlockedOrOccupiedTest]'
+      name: TryPushUnitBackwardFailsWhenDestinationIsInvalidBlockedOrOccupiedTest
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests.TryPushUnitBackwardFailsWhenDestinationIsInvalidBlockedOrOccupiedTest
+      resultStatus: 1
+      duration: 0.0033046
+      messages: 
+      output: 'Unit ally-edge created without abilities. Injecting Default Basic
+        Attack.
+
+        Unit ally-blocked created without abilities. Injecting Default
+        Basic Attack.
+
+        Unit ally-occupying created without abilities. Injecting
+        Default Basic Attack.
+
+        Unit ally-source created without abilities.
+        Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+    - id: 1082
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/BattleBoardTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests.TryPushUnitBackwardMovesOneCellWhenAvailableTest]'
+      name: TryPushUnitBackwardMovesOneCellWhenAvailableTest
+      fullName: CardBattler.Tests.Battle.Boards.BattleBoardTests.TryPushUnitBackwardMovesOneCellWhenAvailableTest
+      resultStatus: 1
+      duration: 0.0009376
+      messages: 
+      output: 'Unit ally-1 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Boards/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Boards.BattleBoardTests][suite]'
+    - id: 1101
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions][suite]'
+      name: CombatActions
+      fullName: CardBattler.Tests.Battle.CombatActions
+      resultStatus: 1
+      duration: 0.0034418
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1075
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests][suite]'
+      name: ActionVisualizerResolverTests
+      fullName: CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests
+      resultStatus: 1
+      duration: 0.0034418
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1101
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions][suite]'
+    - id: 1029
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/ActionVisualizerResolverTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerReturnsCorrectVisualizerForAttackActionTest]'
+      name: GetVisualizerReturnsCorrectVisualizerForAttackActionTest
+      fullName: CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerReturnsCorrectVisualizerForAttackActionTest
+      resultStatus: 1
+      duration: 0.0010572
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests][suite]'
+    - id: 1059
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/ActionVisualizerResolverTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerReturnsCorrectVisualizerForHealActionTest]'
+      name: GetVisualizerReturnsCorrectVisualizerForHealActionTest
+      fullName: CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerReturnsCorrectVisualizerForHealActionTest
+      resultStatus: 1
+      duration: 0.0007303
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1057
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests][suite]'
+    - id: 1030
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/ActionVisualizerResolverTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerThrowsForUnknownActionTest]'
+      name: GetVisualizerThrowsForUnknownActionTest
+      fullName: CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests.GetVisualizerThrowsForUnknownActionTest
+      resultStatus: 1
+      duration: 0.0016543
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatActions/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatActions.ActionVisualizerResolverTests][suite]'
+    - id: 1035
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest][suite]'
+      name: CombatUnitTest
+      fullName: CardBattler.Tests.Battle.CombatUnitTest
+      resultStatus: 1
+      duration: 0.0038329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1026
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatUnitTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest.ApplyDamageTest]'
+      name: ApplyDamageTest
+      fullName: CardBattler.Tests.Battle.CombatUnitTest.ApplyDamageTest
+      resultStatus: 1
+      duration: 0.0011524
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest][suite]'
+    - id: 1031
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatUnitTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest.ApplyHealClampsToMaxHealthTest]'
+      name: ApplyHealClampsToMaxHealthTest
+      fullName: CardBattler.Tests.Battle.CombatUnitTest.ApplyHealClampsToMaxHealthTest
+      resultStatus: 1
+      duration: 0.0009134
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest][suite]'
+    - id: 1032
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatUnitTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest.ApplyHealthChangeCanDamageAndClampToZeroTest]'
+      name: ApplyHealthChangeCanDamageAndClampToZeroTest
+      fullName: CardBattler.Tests.Battle.CombatUnitTest.ApplyHealthChangeCanDamageAndClampToZeroTest
+      resultStatus: 1
+      duration: 0.0008479
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest][suite]'
+    - id: 1033
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/CombatUnitTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest.ApplyHealthChangeCanHealAndClampToMaxHealthTest]'
+      name: ApplyHealthChangeCanHealAndClampToMaxHealthTest
+      fullName: CardBattler.Tests.Battle.CombatUnitTest.ApplyHealthChangeCanHealAndClampToMaxHealthTest
+      resultStatus: 1
+      duration: 0.0009192
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.CombatUnitTest][suite]'
+    - id: 1100
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting][suite]'
+      name: Targeting
+      fullName: CardBattler.Tests.Battle.Targeting
+      resultStatus: 1
+      duration: 0.0280627
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1055
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+      name: TargetResolversTests
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests
+      resultStatus: 1
+      duration: 0.0280627
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting][suite]'
+    - id: 1074
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.HasStatusNone_SmartLogicTest]'
+      name: HasStatusNone_SmartLogicTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.HasStatusNone_SmartLogicTest
+      resultStatus: 1
+      duration: 0.0067471
+      messages: 
+      output: 'Unit NoStatus created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        ShortStatus created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        LongStatus created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        ShortStatus2 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1044
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoOnlyPicksTest]'
+      name: RandomFrontTwoOnlyPicksTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoOnlyPicksTest
+      resultStatus: 1
+      duration: 0.0031047
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1043
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoWithDifferentSeedsTest]'
+      name: RandomFrontTwoWithDifferentSeedsTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoWithDifferentSeedsTest
+      resultStatus: 1
+      duration: 0.002664
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1041
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoWithSameSeedTest]'
+      name: RandomFrontTwoWithSameSeedTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.RandomFrontTwoWithSameSeedTest
+      resultStatus: 1
+      duration: 0.0033981
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1069
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest][suite]'
+      name: ReturnExpectedTargetWithEmptyListTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest
+      resultStatus: 1
+      duration: 0.0026272
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1055
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1037
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithEmptyListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(FrontFirst)]'
+      name: ReturnExpectedTargetWithEmptyListTest(FrontFirst)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(FrontFirst)
+      resultStatus: 1
+      duration: 0.0007643
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest][suite]'
+    - id: 1038
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithEmptyListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(BehindFirst)]'
+      name: ReturnExpectedTargetWithEmptyListTest(BehindFirst)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(BehindFirst)
+      resultStatus: 1
+      duration: 0.0002793
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest][suite]'
+    - id: 1039
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithEmptyListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(LowestHealth)]'
+      name: ReturnExpectedTargetWithEmptyListTest(LowestHealth)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(LowestHealth)
+      resultStatus: 1
+      duration: 0.0007057
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest][suite]'
+    - id: 1039
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithEmptyListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(RandomFrontTwo)]'
+      name: ReturnExpectedTargetWithEmptyListTest(RandomFrontTwo)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest(RandomFrontTwo)
+      resultStatus: 1
+      duration: 0.0008779
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithEmptyListTest][suite]'
+    - id: 1064
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest][suite]'
+      name: ReturnExpectedTargetWithNullListTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest
+      resultStatus: 1
+      duration: 0.0011201
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1055
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1032
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithNullListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(FrontFirst)]'
+      name: ReturnExpectedTargetWithNullListTest(FrontFirst)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(FrontFirst)
+      resultStatus: 1
+      duration: 0.0005812
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest][suite]'
+    - id: 1033
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithNullListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(BehindFirst)]'
+      name: ReturnExpectedTargetWithNullListTest(BehindFirst)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(BehindFirst)
+      resultStatus: 1
+      duration: 0.0001962
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest][suite]'
+    - id: 1034
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithNullListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(LowestHealth)]'
+      name: ReturnExpectedTargetWithNullListTest(LowestHealth)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(LowestHealth)
+      resultStatus: 1
+      duration: 0.0001722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest][suite]'
+    - id: 1035
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnExpectedTargetWithNullListTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(RandomFrontTwo)]'
+      name: ReturnExpectedTargetWithNullListTest(RandomFrontTwo)
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest(RandomFrontTwo)
+      resultStatus: 1
+      duration: 0.0001705
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnExpectedTargetWithNullListTest][suite]'
+    - id: 1059
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnsExpectedTargetTest][suite]'
+      name: ReturnsExpectedTargetTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnsExpectedTargetTest
+      resultStatus: 1
+      duration: 0.007144
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1055
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1028
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnsExpectedTargetTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.FrontFirst_ReturnsLowestPos]'
+      name: FrontFirst_ReturnsLowestPos
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.FrontFirst_ReturnsLowestPos
+      resultStatus: 1
+      duration: 0.0029133
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnsExpectedTargetTest][suite]'
+    - id: 1029
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnsExpectedTargetTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.BehindFirst_ReturnsHighestPos]'
+      name: BehindFirst_ReturnsHighestPos
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.BehindFirst_ReturnsHighestPos
+      resultStatus: 1
+      duration: 0.0021523
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnsExpectedTargetTest][suite]'
+    - id: 1030
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/ReturnsExpectedTargetTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.LowestHealth_ReturnsLowestHp]'
+      name: LowestHealth_ReturnsLowestHp
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.LowestHealth_ReturnsLowestHp
+      resultStatus: 1
+      duration: 0.0020784
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        002 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        003 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.ReturnsExpectedTargetTest][suite]'
+    - id: 1057
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/TargetResolversTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests.SelfTargetReturnsExecutorTest]'
+      name: SelfTargetReturnsExecutorTest
+      fullName: CardBattler.Tests.Battle.Targeting.TargetResolversTests.SelfTargetReturnsExecutorTest
+      resultStatus: 1
+      duration: 0.0012575
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1039
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Targeting/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Targeting.TargetResolversTests][suite]'
+    - id: 1099
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns][suite]'
+      name: Turns
+      fullName: CardBattler.Tests.Battle.Turns
+      resultStatus: 1
+      duration: 0.010100599
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1048
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest][suite]'
+      name: CharacterTurnTest
+      fullName: CardBattler.Tests.Battle.Turns.CharacterTurnTest
+      resultStatus: 1
+      duration: 0.0051947
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns][suite]'
+    - id: 1029
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/CharacterTurnTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest.AddStartActionTest]'
+      name: AddStartActionTest
+      fullName: CardBattler.Tests.Battle.Turns.CharacterTurnTest.AddStartActionTest
+      resultStatus: 1
+      duration: 0.0019886
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest][suite]'
+    - id: 1028
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/CharacterTurnTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest.BuilderAssignsExecutorTest]'
+      name: BuilderAssignsExecutorTest
+      fullName: CardBattler.Tests.Battle.Turns.CharacterTurnTest.BuilderAssignsExecutorTest
+      resultStatus: 1
+      duration: 0.0008347
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest][suite]'
+    - id: 1031
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/CharacterTurnTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest.GetAllActionsOrderTest]'
+      name: GetAllActionsOrderTest
+      fullName: CardBattler.Tests.Battle.Turns.CharacterTurnTest.GetAllActionsOrderTest
+      resultStatus: 1
+      duration: 0.0015169
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest][suite]'
+    - id: 1030
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/CharacterTurnTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest.SetMainActionTest]'
+      name: SetMainActionTest
+      fullName: CardBattler.Tests.Battle.Turns.CharacterTurnTest.SetMainActionTest
+      resultStatus: 1
+      duration: 0.0008545
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.CharacterTurnTest][suite]'
+    - id: 1053
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.TurnBuilderTest][suite]'
+      name: TurnBuilderTest
+      fullName: CardBattler.Tests.Battle.Turns.TurnBuilderTest
+      resultStatus: 1
+      duration: 0.0049059
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns][suite]'
+    - id: 1033
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/TurnBuilderTest/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.TurnBuilderTest.BuildTurnOrchestratesDependenciesTest]'
+      name: BuildTurnOrchestratesDependenciesTest
+      fullName: CardBattler.Tests.Battle.Turns.TurnBuilderTest.BuildTurnOrchestratesDependenciesTest
+      resultStatus: 1
+      duration: 0.0049059
+      messages: 
+      output: 'Unit 001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        001 created without abilities. Injecting Default Basic Attack.
+
+        Unit
+        001 created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/Turns/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.Turns.TurnBuilderTest][suite]'
+    - id: 1040
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+      name: UnitTransitionTests
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests
+      resultStatus: 1
+      duration: 0.0040905
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle][suite]'
+    - id: 1041
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.ConstructorAssignsFieldsCorrectlyTest]'
+      name: ConstructorAssignsFieldsCorrectlyTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.ConstructorAssignsFieldsCorrectlyTest
+      resultStatus: 1
+      duration: 0.0010834
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1043
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.DamageTransitionTest]'
+      name: DamageTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.DamageTransitionTest
+      resultStatus: 1
+      duration: 0.0007902
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1045
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.DeathTransitionTest]'
+      name: DeathTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.DeathTransitionTest
+      resultStatus: 1
+      duration: 0.0009321
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1044
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.HealTransitionTest]'
+      name: HealTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.HealTransitionTest
+      resultStatus: 1
+      duration: 0.0004283
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1042
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.NoChangeTransitionTest]'
+      name: NoChangeTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.NoChangeTransitionTest
+      resultStatus: 1
+      duration: 0.0003574
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1046
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.OverhealTransitionTest]'
+      name: OverhealTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.OverhealTransitionTest
+      resultStatus: 1
+      duration: 0.0002287
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1047
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/UnitTransitionTests/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests.StatChangeTransitionTest]'
+      name: StatChangeTransitionTest
+      fullName: CardBattler.Tests.Battle.UnitTransitionTests.StatChangeTransitionTest
+      resultStatus: 1
+      duration: 0.0002704
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Battle/[CardBattler.Editor.Tests][CardBattler.Tests.Battle.UnitTransitionTests][suite]'
+    - id: 1097
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure][suite]'
+      name: Infrastructure
+      fullName: CardBattler.Tests.Infrastructure
+      resultStatus: 1
+      duration: 0.0086834
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+    - id: 1016
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+      name: EventBusTests
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests
+      resultStatus: 1
+      duration: 0.0046703
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1097
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure][suite]'
+    - id: 1011
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/EventBusTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests.DisposeClearsSubscribersTest]'
+      name: DisposeClearsSubscribersTest
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests.DisposeClearsSubscribersTest
+      resultStatus: 1
+      duration: 0.0019607
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+    - id: 1010
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/EventBusTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests.EventTypeIsolationTest]'
+      name: EventTypeIsolationTest
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests.EventTypeIsolationTest
+      resultStatus: 1
+      duration: 0.0005275
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+    - id: 1009
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/EventBusTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests.MultipleSubscribersTest]'
+      name: MultipleSubscribersTest
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests.MultipleSubscribersTest
+      resultStatus: 1
+      duration: 0.0006291
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+    - id: 1007
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/EventBusTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests.SubscribeAndPublishTest]'
+      name: SubscribeAndPublishTest
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests.SubscribeAndPublishTest
+      resultStatus: 1
+      duration: 0.0006303
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+    - id: 1008
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/EventBusTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests.UnsubscribeTest]'
+      name: UnsubscribeTest
+      fullName: CardBattler.Tests.Infrastructure.EventBusTests.UnsubscribeTest
+      resultStatus: 1
+      duration: 0.0009227
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.EventBusTests][suite]'
+    - id: 1022
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+      name: PoolManagerTests
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests
+      resultStatus: 1
+      duration: 0.0040130997
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1097
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure][suite]'
+    - id: 1015
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.GetObjectCreatesNewWhenPoolEmptyTest]'
+      name: GetObjectCreatesNewWhenPoolEmptyTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.GetObjectCreatesNewWhenPoolEmptyTest
+      resultStatus: 1
+      duration: 0.0020253
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1014
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.GetObjectReducesPoolCountTest]'
+      name: GetObjectReducesPoolCountTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.GetObjectReducesPoolCountTest
+      resultStatus: 1
+      duration: 0.000472
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1013
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.InitializePoolTest]'
+      name: InitializePoolTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.InitializePoolTest
+      resultStatus: 1
+      duration: 0.0003078
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1017
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.MultipleTypesHandlingTest]'
+      name: MultipleTypesHandlingTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.MultipleTypesHandlingTest
+      resultStatus: 1
+      duration: 0.0004356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1016
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.ReturnObjectTest]'
+      name: ReturnObjectTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.ReturnObjectTest
+      resultStatus: 1
+      duration: 0.0004428
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1018
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/PoolManagerTests/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests.ReturnObjectToUninitializedPoolThrowsExceptionTest]'
+      name: ReturnObjectToUninitializedPoolThrowsExceptionTest
+      fullName: CardBattler.Tests.Infrastructure.PoolManagerTests.ReturnObjectToUninitializedPoolThrowsExceptionTest
+      resultStatus: 1
+      duration: 0.0003296
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Infrastructure/[CardBattler.Editor.Tests][CardBattler.Tests.Infrastructure.PoolManagerTests][suite]'
+    - id: 1096
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection][suite]'
+      name: Selection
+      fullName: CardBattler.Tests.Selection
+      resultStatus: 1
+      duration: 0.0026423999
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+    - id: 1011
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests][suite]'
+      name: StandardTeamSelectorTests
+      fullName: CardBattler.Tests.Selection.StandardTeamSelectorTests
+      resultStatus: 1
+      duration: 0.0026423999
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1096
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection][suite]'
+    - id: 1003
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/StandardTeamSelectorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests.AddCharacterTest]'
+      name: AddCharacterTest
+      fullName: CardBattler.Tests.Selection.StandardTeamSelectorTests.AddCharacterTest
+      resultStatus: 1
+      duration: 0.0015213
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests][suite]'
+    - id: 1005
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/StandardTeamSelectorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests.MaxTeamSizeTest]'
+      name: MaxTeamSizeTest
+      fullName: CardBattler.Tests.Selection.StandardTeamSelectorTests.MaxTeamSizeTest
+      resultStatus: 1
+      duration: 0.0003513
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests][suite]'
+    - id: 1004
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/StandardTeamSelectorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests.RemoveCharacterTest]'
+      name: RemoveCharacterTest
+      fullName: CardBattler.Tests.Selection.StandardTeamSelectorTests.RemoveCharacterTest
+      resultStatus: 1
+      duration: 0.0003242
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests][suite]'
+    - id: 1002
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/StandardTeamSelectorTests/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests.SwapCardsTest]'
+      name: SwapCardsTest
+      fullName: CardBattler.Tests.Selection.StandardTeamSelectorTests.SwapCardsTest
+      resultStatus: 1
+      duration: 0.0004456
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Selection/[CardBattler.Editor.Tests][CardBattler.Tests.Selection.StandardTeamSelectorTests][suite]'
+    - id: 1095
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses][suite]'
+      name: Statuses
+      fullName: CardBattler.Tests.Statuses
+      resultStatus: 1
+      duration: 0.0073390002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/[Tests][suite]'
+    - id: 1001
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.CombatUnitStatusTest][suite]'
+      name: CombatUnitStatusTest
+      fullName: CardBattler.Tests.Statuses.CombatUnitStatusTest
+      resultStatus: 1
+      duration: 0.0021787002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1095
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses][suite]'
+    - id: 1003
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/CombatUnitStatusTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.CombatUnitStatusTest.AddStatusCopiesDataByValueTest]'
+      name: AddStatusCopiesDataByValueTest
+      fullName: CardBattler.Tests.Statuses.CombatUnitStatusTest.AddStatusCopiesDataByValueTest
+      resultStatus: 1
+      duration: 0.0010423
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.CombatUnitStatusTest][suite]'
+    - id: 1002
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/CombatUnitStatusTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.CombatUnitStatusTest.RemoveExpiredStatusEffectsRemovesOnlyExpiredTest]'
+      name: RemoveExpiredStatusEffectsRemovesOnlyExpiredTest
+      fullName: CardBattler.Tests.Statuses.CombatUnitStatusTest.RemoveExpiredStatusEffectsRemovesOnlyExpiredTest
+      resultStatus: 1
+      duration: 0.0011364
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.CombatUnitStatusTest][suite]'
+    - id: 1004
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest][suite]'
+      name: DamageOverTimeEffectProcessorTest
+      fullName: CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest
+      resultStatus: 1
+      duration: 0.0029603
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1095
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses][suite]'
+    - id: 1007
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/DamageOverTimeEffectProcessorTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.EndPhaseExpiresCorrectlyTest]'
+      name: EndPhaseExpiresCorrectlyTest
+      fullName: CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.EndPhaseExpiresCorrectlyTest
+      resultStatus: 1
+      duration: 0.00127
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest][suite]'
+    - id: 1006
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/DamageOverTimeEffectProcessorTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.EndPhaseReducesDurationTest]'
+      name: EndPhaseReducesDurationTest
+      fullName: CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.EndPhaseReducesDurationTest
+      resultStatus: 1
+      duration: 0.0007339
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest][suite]'
+    - id: 1005
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/DamageOverTimeEffectProcessorTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.StartPhaseAppliesDamageTest]'
+      name: StartPhaseAppliesDamageTest
+      fullName: CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest.StartPhaseAppliesDamageTest
+      resultStatus: 1
+      duration: 0.0009564
+      messages: 
+      output: 'Unit  created without abilities. Injecting Default Basic Attack.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.DamageOverTimeEffectProcessorTest][suite]'
+    - id: 1008
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.EffectsResolverTest][suite]'
+      name: EffectsResolverTest
+      fullName: CardBattler.Tests.Statuses.EffectsResolverTest
+      resultStatus: 1
+      duration: 0.0022
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1095
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses][suite]'
+    - id: 1009
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/EffectsResolverTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.EffectsResolverTest.ResolveDamageOverTimeReturnsCorrectProcessorTest]'
+      name: ResolveDamageOverTimeReturnsCorrectProcessorTest
+      fullName: CardBattler.Tests.Statuses.EffectsResolverTest.ResolveDamageOverTimeReturnsCorrectProcessorTest
+      resultStatus: 1
+      duration: 0.0017416
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.EffectsResolverTest][suite]'
+    - id: 1010
+      uniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/EffectsResolverTest/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.EffectsResolverTest.ResolveUnknownEffectThrowsExceptionTest]'
+      name: ResolveUnknownEffectThrowsExceptionTest
+      fullName: CardBattler.Tests.Statuses.EffectsResolverTest.ResolveUnknownEffectThrowsExceptionTest
+      resultStatus: 1
+      duration: 0.0004584
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: 'CardBattler.Editor.Tests.dll/CardBattler/Tests/Statuses/[CardBattler.Editor.Tests][CardBattler.Tests.Statuses.EffectsResolverTest][suite]'
+    m_ResultText: Card_Battler (71 tests) (0,161s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d1e9b6f0
+      m_LastClickedID: -256448047
+      m_ExpandedIDs: 3f842e8be64e898b66a4098e5d214d95a61f86a351e517a459ab67a867b43badbce28db0a3c7c3dfd1e9b6f0fe1926fb945594ff657ce1ff501b0a05fa53b8131000de1d120f6c20f8b356351e98b636065fc5362d16593c1600fa466400374a8f92484f948d3656664a8656affb1b5d7334e66d528dac6fffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 23}
+    runProgress:
+      RunGuid: 0a5f8687-3fa5-413f-93d8-670466734646
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames:
+          - CardBattler.Tests.Battle.BattleSimulatorTests.TargetingPriorityTest
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999999
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1068
+      uniqueId: '[Card_Battler][suite]'
+      name: Card_Battler
+      fullName: Card_Battler
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d1e9b6f0ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 0}
+    runProgress:
+      RunGuid: 0a5f8687-3fa5-413f-93d8-670466734646
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 1
+          testNames:
+          - CardBattler.Tests.Battle.BattleSimulatorTests.TargetingPriorityTest
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.9999999
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories: []
+    m_SelectedOption: 0
+--- !u!114 &24
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project Settings\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1381
+    y: 79
+    width: 538
+    height: 915
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterPos: 100
+  m_SearchText: assem
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 272fd499
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0478ab97a01a5fa667ea4eb1000000007f0eae07e594f01a7a363d4bc53aba5a
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: assem
