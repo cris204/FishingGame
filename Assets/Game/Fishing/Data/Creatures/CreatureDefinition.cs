@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game.Fishing.Data
@@ -11,6 +12,7 @@ namespace Game.Fishing.Data
         public string DisplayName;
         public Rarity Rarity;
         public float BaseAppearanceRate;
+        public List<float> RawAppearanceRates = new List<float>();
         public MovementPatternDefinition CreatureMovement;
         public RodMovementDefinition RequiredRodMovement;
         public bool UnlocksZone;
