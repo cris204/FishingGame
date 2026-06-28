@@ -6,7 +6,6 @@ namespace Game.Fishing.Data
         Uncommon,
         Rare,
         Epic,
-        Mythic,
-        Infinite
+        Mythic
     }
 }
